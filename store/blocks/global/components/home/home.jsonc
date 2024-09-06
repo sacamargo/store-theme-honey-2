@@ -1,25 +1,36 @@
 {
-  "flex-layout.row#home__section--global": {
+  "flex-layout.row#home__section--global-1": {
     "title": "Global Row with text example",
     "children": [
-      "rich-text#home__section--global"
+      "rich-text#text__home--global-1"
     ],
     "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
+      "blockClass": "flex__rich-home",
+      "marginTop": 9
     }
   },
 
-  "rich-text#home__section--global": {
+  "rich-text#text__home--global-1": {
     "title": "Text Favorites",
     "props": {
-      "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
-      "font": "t-heading-1",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "blockClass": "rich__home-principal",
+      "text": "<span>Tienda.</span> La mejor manera de comprar lo que amas.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#home__section--global-2": {
+    "children": [
+      "rich-text#text__home--global-2"
+    ]
+  },
+  "rich-text#text__home--global-2": {
+    "title": "Text Favorites",
+    "props": {
+      "blockClass": "rich__home-second",
+      "text": "<span>An amazing product.</span> La mejor manera de comprar lo que amas.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
   }
 }

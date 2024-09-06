@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#slider__infocards--container": {
+        "title": "slider info cards home",
+        "props": {
+            "blockClass": "slider__infocards-home"
+        },
+        "children": [
+            "slider-layout#slider__infocards--slider"
+        ]
+    },
+    "slider-layout#slider__infocards--slider": {
+        "props": {
+            "centerMode": {
+                "desktop": "to-the-left"
+            },
+            "showNavigationArrows": "never",
+            "fullWidth": false,
+            "title": "global categories slider",
+            "blockClass": "slider__infocards",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        },
+        "children": [
+            "flex-layout.col#container__infocard--1",
+            "flex-layout.col#container__infocard--2",
+            "flex-layout.col#container__infocard--1",
+            "flex-layout.col#container__infocard--2"
+        ]
+    },
+    "flex-layout.col#container__infocard--1": {
+        "props": {
+            "blockClass": "container__infocard-home"
+        },
+        "children": [
+            "image#info__card--1"
+        ]
+    },
+    "image#info__card--1": {
+        "props": {
+            "src": "/arquivos/info-card-1.svg"
+        }
+    },
+    "flex-layout.col#container__infocard--2": {
+        "props": {
+            "blockClass": "container__infocard-home"
+        },
+        "children": [
+            "image#info__card--2"
+        ]
+    },
+    "image#info__card--2": {
+        "props": {
+            "src": "/arquivos/info-card-2.svg"
+        }
+    }
+}

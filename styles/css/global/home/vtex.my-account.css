@@ -1,0 +1,9 @@
+:global(.vtex-rich-text-0-x-paragraph--rich__home-principal) :global(span) {
+    font-family: 'Lexend-SemiBold';
+    color: #1D2734;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rich__home-second) :global(span) {
+    font-family: 'Lexend-SemiBold';
+    color: #1D2734;
+}

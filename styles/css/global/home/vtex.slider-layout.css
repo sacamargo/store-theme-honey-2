@@ -1,0 +1,16 @@
+.paginationDotsContainer--slider__categories {
+    display: none;
+}
+
+/* .slide {
+    width: auto !important;
+} */
+
+
+.slide--slider__infocards {
+    width: 324px !important;
+}
+
+.slide--slider__infocards--hidden {
+    width: 324px !important;
+}

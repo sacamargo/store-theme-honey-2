@@ -1,0 +1,9 @@
+.flexRowContent--container__categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexCol--rich__text-categories {
+    align-items: center;
+}

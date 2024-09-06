@@ -1,0 +1,347 @@
+{
+    "flex-layout.row#slider__categories--container": {
+        "title": "slider categories home",
+        "props": {
+            "blockClass": "slider__categories-home"
+        },
+        "children": [
+            "slider-layout#slider__categories--slider"
+        ]
+    },
+    "slider-layout#slider__categories--slider": {
+        "props": {
+            "centerMode": {
+                "desktop": "to-the-left"
+            },
+            "showNavigationArrows": "never",
+            "fullWidth": false,
+            "title": "global categories slider",
+            "blockClass": "slider__categories",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        },
+        "children": [
+            "flex-layout.row#container__categories--one",
+            "flex-layout.row#container__categories--two",
+            "flex-layout.row#container__categories--three",
+            "flex-layout.row#container__categories--four",
+            "flex-layout.row#container__categories--five",
+            "flex-layout.row#container__categories--six",
+            "flex-layout.row#container__categories--seven",
+            "flex-layout.row#container__categories--eight",
+            "flex-layout.row#container__categories--nine"
+        ]
+    },
+    "flex-layout.row#container__categories--one": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--one",
+            "flex-layout.col#categories__text--one"
+        ]
+    },
+    "flex-layout.col#categories__images--one": {
+        "children": [
+            "image#categories__one"
+        ]
+    },
+    "flex-layout.col#categories__text--one": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__one"
+        ]
+    },
+    "image#categories__one": {
+        "props": {
+            "blockClass": "image__categories-one",
+            "src": "/arquivos/categories-tv.png"
+        }
+    },
+    "rich-text#categories__one": {
+        "props": {
+            "text": "[TV](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--two": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--two",
+            "flex-layout.col#categories__text--two"
+        ]
+    },
+    "flex-layout.col#categories__images--two": {
+        "children": [
+            "image#categories__two"
+        ]
+    },
+    "flex-layout.col#categories__text--two": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__two"
+        ]
+    },
+    "image#categories__two": {
+        "props": {
+            "blockClass": "image__categories-two",
+            "src": "/arquivos/categories-phone.png"
+        }
+    },
+    "rich-text#categories__two": {
+        "props": {
+            "text": "[Smartphones](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--three": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--three",
+            "flex-layout.col#categories__text--three"
+        ]
+    },
+    "flex-layout.col#categories__images--three": {
+        "props": {
+            "blockClass": "images__three"
+        },
+        "children": [
+            "image#categories__three"
+        ]
+    },
+    "flex-layout.col#categories__text--three": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__three"
+        ]
+    },
+    "image#categories__three": {
+        "props": {
+            "blockClass": "image__categories-three",
+            "src": "/arquivos/categories-apple-watch.png"
+        }
+    },
+    "rich-text#categories__three": {
+        "props": {
+            "text": "[Apple Watch](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--four": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--four",
+            "flex-layout.col#categories__text--four"
+        ]
+    },
+    "flex-layout.col#categories__images--four": {
+        "children": [
+            "image#categories__four"
+        ]
+    },
+    "flex-layout.col#categories__text--four": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__four"
+        ]
+    },
+    "image#categories__four": {
+        "props": {
+            "blockClass": "image__categories-four",
+            "src": "/arquivos/categories-tablet.png"
+        }
+    },
+    "rich-text#categories__four": {
+        "props": {
+            "text": "[Tablets](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--five": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--five",
+            "flex-layout.col#categories__text--five"
+        ]
+    },
+    "flex-layout.col#categories__images--five": {
+        "children": [
+            "image#categories__five"
+        ]
+    },
+    "flex-layout.col#categories__text--five": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__five"
+        ]
+    },
+    "image#categories__five": {
+        "props": {
+            "blockClass": "image__categories-five",
+            "src": "/arquivos/categories-computers.png"
+        }
+    },
+    "rich-text#categories__five": {
+        "props": {
+            "text": "[Computers](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--six": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--six",
+            "flex-layout.col#categories__text--six"
+        ]
+    },
+    "flex-layout.col#categories__images--six": {
+        "children": [
+            "image#categories__six"
+        ]
+    },
+    "flex-layout.col#categories__text--six": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__six"
+        ]
+    },
+    "image#categories__six": {
+        "props": {
+            "blockClass": "image__categories-six",
+            "src": "/arquivos/categories-disk.png"
+        }
+    },
+    "rich-text#categories__six": {
+        "props": {
+            "text": "[Disk ITG](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--seven": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--seven",
+            "flex-layout.col#categories__text--seven"
+        ]
+    },
+    "flex-layout.col#categories__images--seven": {
+        "children": [
+            "image#categories__seven"
+        ]
+    },
+    "flex-layout.col#categories__text--seven": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__seven"
+        ]
+    },
+    "image#categories__seven": {
+        "props": {
+            "blockClass": "image__categories-seven",
+            "src": "/arquivos/categories-mersh.png"
+        }
+    },
+    "rich-text#categories__seven": {
+        "props": {
+            "text": "[Mersh](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--eight": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--eight",
+            "flex-layout.col#categories__text--eight"
+        ]
+    },
+    "flex-layout.col#categories__images--eight": {
+        "children": [
+            "image#categories__eight"
+        ]
+    },
+    "flex-layout.col#categories__text--eight": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__eight"
+        ]
+    },
+    "image#categories__eight": {
+        "props": {
+            "blockClass": "image__categories-eight",
+            "src": "/arquivos/categories-books.png"
+        }
+    },
+    "rich-text#categories__eight": {
+        "props": {
+            "text": "[Books](https:)",
+            "blockClass": "text__categories-home"
+        }
+    },
+    "flex-layout.row#container__categories--nine": {
+        "props": {
+            "blockClass": "container__categories"
+        },
+        "children": [
+            "flex-layout.col#categories__images--nine",
+            "flex-layout.col#categories__text--nine"
+        ]
+    },
+    "flex-layout.col#categories__images--nine": {
+        "children": [
+            "image#categories__nine"
+        ]
+    },
+    "flex-layout.col#categories__text--nine": {
+        "props": {
+            "blockClass": "rich__text-categories"
+        },
+        "children": [
+            "rich-text#categories__nine"
+        ]
+    },
+    "image#categories__nine": {
+        "props": {
+            "blockClass": "image__categories-nine",
+            "src": "/arquivos/categories-disk.png"
+        }
+    },
+    "rich-text#categories__nine": {
+        "props": {
+            "text": "[Disk ITG](https:)",
+            "blockClass": "text__categories-home"
+        }
+    }
+}
